@@ -772,9 +772,10 @@ section {
 }
 
 .about .video-box {
-  background: url("https://upload.wikimedia.org/wikipedia/commons/8/82/SARS-CoV-2_without_background.png") center center no-repeat;
+  background: url("../img//doctors/corono-virus.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
+  margin-top:20px;
 }
 
 .about .play-btn {
@@ -1145,7 +1146,7 @@ section {
   }
   .departments .nav-link.active {
     color: #fff;
-    background: #1977cc;
+    background: #04080c;
   }
 }
 
@@ -1181,11 +1182,108 @@ section {
   padding-left: 30px;
 }
 
-.precautions .member h4 {
+/*--------------------------------------------------------------
+# Doctors
+--------------------------------------------------------------*/
+.doctors {
+  background: #fff;
+}
+
+.doctors .member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.doctors .member .pic {
+  overflow: hidden;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.doctors .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.doctors .member:hover img {
+  transform: scale(1.1);
+}
+
+.doctors .member .member-info {
+  padding-left: 30px;
+}
+
+.doctors .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 23px;
+  font-size: 20px;
+  color: #2c4964;
+}
+
+.doctors .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.doctors .member span::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0px;
+  height: 1px;
+  background: #b2c8dd;
+  bottom: 0;
+  left: 0;
+}
+
+.doctors .member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.doctors .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.doctors .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #a0bcd5;
+}
+
+.doctors .member .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.doctors .member .social a:hover {
+  background: #1977cc;
+}
+
+.doctors .member .social a + a {
+  margin-left: 8px;
+}
+
+
+.member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #2c4964;
+  color: #062847;
 }
 
 .precautions .member span {
