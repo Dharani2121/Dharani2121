@@ -451,6 +451,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 90vh;
   background: url("../img/hero-bg1.jpg")top center;
+  background-size: cover;
   position: relative;
   margin-bottom: -200px;
 }
@@ -542,7 +543,6 @@ section {
 }
 
 .section-title h2 {
-  text-align: left;
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -552,7 +552,6 @@ section {
 }
 
 .section-title h2::before {
-  text-align: left ;
   content: '';
   position: absolute;
   display: block;
@@ -564,7 +563,6 @@ section {
 }
 
 .section-title h2::after {
-  text-align: left ;
   content: '';
   position: absolute;
   display: block;
@@ -576,7 +574,6 @@ section {
 }
 
 .section-title p {
-  text-align: left;
   margin-bottom: 0;
 }
 
@@ -686,6 +683,7 @@ section {
   padding: 40px 30px;
   width: 100%;
 }
+
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
   color: #1977cc;
@@ -772,7 +770,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img//doctors/corono-virus.jpg") center center no-repeat;
+  background: url("../img/doctors/corono-virus.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
   margin-top:20px;
@@ -1151,38 +1149,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Precautions
---------------------------------------------------------------*/
-.precautions {
-  background: #fff;
-}
-
-.precautions .member {
-  position: relative;
-  box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
-  padding: 30px;
-  border-radius: 10px;
-}
-
-.precautions .member .pic {
-  overflow: hidden;
-  width: 180px;
-  border-radius: 50%;
-}
-
-.precautions .member .pic img {
-  transition: ease-in-out 0.3s;
-}
-
-.precautions.member:hover img {
-  transform: scale(1.1);
-}
-
-.precautions .member .member-info {
-  padding-left: 30px;
-}
-
-/*--------------------------------------------------------------
 # Doctors
 --------------------------------------------------------------*/
 .doctors {
@@ -1275,70 +1241,6 @@ section {
 }
 
 .doctors .member .social a + a {
-  margin-left: 8px;
-}
-
-
-.member h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 20px;
-  color: #062847;
-}
-
-.precautions .member span {
-  display: block;
-  font-size: 15px;
-  padding-bottom: 10px;
-  position: relative;
-  font-weight: 500;
-}
-
-.precautions .member span::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #b2c8dd;
-  bottom: 0;
-  left: 0;
-}
-
-.precautions .member p {
-  margin: 10px 0 0 0;
-  font-size: 14px;
-}
-
-.precautions .member .social {
-  margin-top: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.precautions .member .social a {
-  transition: ease-in-out 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-  width: 32px;
-  height: 32px;
-  background: #a0bcd5;
-}
-
-.precautions.member .social a i {
-  color: #fff;
-  font-size: 16px;
-  margin: 0 2px;
-}
-
-.precautions .member .social a:hover {
-  background: #1977cc;
-}
-
-.precautions.member .social a + a {
   margin-left: 8px;
 }
 
