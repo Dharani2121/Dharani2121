@@ -1176,12 +1176,22 @@ section {
 
 .doctors .member h4 {
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   margin-top: 23px;
   font-size: 20px;
   color: #2c4964;
 }
+.btn {
+  padding: 12px 24px;
+  color: rgb(75, 125, 172);
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
 
+.btn:hover {
+  opacity: 1;
+}
 .doctors .member span {
   display: block;
   font-size: 15px;
@@ -1732,4 +1742,9 @@ section {
   background: #1c84e3;
   color: #fff;
   text-decoration: none;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
 }
